@@ -1,0 +1,19 @@
+ 1573  cd Pitomnik2/
+ 1574  cat > Pets.txt
+ 1575  cat > PackAnimals.txt
+ 1576  cat Pets.txt PackAnimals.txt > Animals.txt
+ 1577  cat Animals.txt
+ 1578  mv Animals.txt HumanFriends.txt
+ 1579  ls
+ 1580  mkdir PetsDirectory
+ 1581  mv HumanFriends.txt PetsDirectory/
+ 1582  cd PetsDirectory/
+ 1583  ls
+ 1584  sudo apt-get update
+ 1585  sudo apt-get intstall mysql-server
+ 1586  sudo apt-get install mysql-server
+ 1587  mysql --version
+ 1588  sudo apt-get install cowsay
+ 1589* cowsay "Здарова отец
+ 1590  sudo apt-get remove cowsay
+ 1591  history > history.txt

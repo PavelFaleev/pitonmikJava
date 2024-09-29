@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.pitomnik.Main",
+            "projectName": "Pitomnik2_be8ccdeb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.pitomnik.Main",
+            "projectName": "Pitomnik2",
+            "classPaths": [
+                "${workspaceFolder}/lib/mysql-connector-java-9.0.0.jar",
+                "${workspaceFolder}/bin"
+            ]
+        }
+    ]
+}
+
